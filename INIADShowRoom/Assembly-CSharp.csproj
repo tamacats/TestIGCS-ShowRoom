@@ -54,6 +54,7 @@
      <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Showcase\AlignRigidbodyToTarget.cs" />
      <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Controllers\SidescrollerController.cs" />
      <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Showcase\PlayerData.cs" />
+     <Compile Include="Assets\Scripts\BottomFloor.cs" />
      <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Core scripts\Mover.cs" />
      <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Controllers\Controller.cs" />
      <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Showcase\MouseCursorLock.cs" />
@@ -74,6 +75,7 @@
      <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Input\Character\CharacterInput.cs" />
      <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Input\Camera\CameraJoystickInput.cs" />
      <Compile Include="Assets\Character Movement Fundamentals\Source\Scripts\Helper\VectorMath.cs" />
+     <None Include="Assets\SpaceZeta_Spotlight\Info.txt" />
      <None Include="Assets\Room\Settings\Note.txt" />
      <None Include="Assets\_FBX\Integrations\Autodesk\maya\UnityFbxForMaya.txt" />
      <None Include="Assets\Character Movement Fundamentals\Source\Misc\Shaders\OneSidedTextShader.shader" />
@@ -621,8 +623,17 @@
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>F:/GitHub/INIAD-ShowRoom/INIADShowRoom/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Formats.Fbx.Editor">
+        <HintPath>F:/GitHub/INIAD-ShowRoom/INIADShowRoom/Library/ScriptAssemblies/Unity.Formats.Fbx.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder.Editor">
+        <HintPath>F:/GitHub/INIAD-ShowRoom/INIADShowRoom/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>F:/GitHub/INIAD-ShowRoom/INIADShowRoom/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder">
+        <HintPath>F:/GitHub/INIAD-ShowRoom/INIADShowRoom/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>F:/GitHub/INIAD-ShowRoom/INIADShowRoom/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -639,29 +650,20 @@
     <Reference Include="Unity.Postprocessing.Runtime">
         <HintPath>F:/GitHub/INIAD-ShowRoom/INIADShowRoom/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Autodesk.Fbx">
+        <HintPath>F:/GitHub/INIAD-ShowRoom/INIADShowRoom/Library/ScriptAssemblies/Autodesk.Fbx.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>F:/GitHub/INIAD-ShowRoom/INIADShowRoom/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
         <HintPath>F:/GitHub/INIAD-ShowRoom/INIADShowRoom/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-        <HintPath>F:/GitHub/INIAD-ShowRoom/INIADShowRoom/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Formats.Fbx.Editor">
-        <HintPath>F:/GitHub/INIAD-ShowRoom/INIADShowRoom/Library/ScriptAssemblies/Unity.Formats.Fbx.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Recorder.Editor">
-        <HintPath>F:/GitHub/INIAD-ShowRoom/INIADShowRoom/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Recorder">
-        <HintPath>F:/GitHub/INIAD-ShowRoom/INIADShowRoom/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
-    </Reference>
-    <Reference Include="Autodesk.Fbx">
-        <HintPath>F:/GitHub/INIAD-ShowRoom/INIADShowRoom/Library/ScriptAssemblies/Autodesk.Fbx.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Formats.Fbx.Runtime">
         <HintPath>F:/GitHub/INIAD-ShowRoom/INIADShowRoom/Library/ScriptAssemblies/Unity.Formats.Fbx.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>F:/GitHub/INIAD-ShowRoom/INIADShowRoom/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
