@@ -24,11 +24,11 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/build.loader.js";
+      var loaderUrl = buildUrl + "/IGC2-ShowRoomTest.loader.js";
       var config = {
-        dataUrl: buildUrl + "/build.data.gz",
-        frameworkUrl: buildUrl + "/build.framework.js.gz",
-        codeUrl: buildUrl + "/build.wasm.gz",
+        dataUrl: buildUrl + "/IGC2-ShowRoomTest.data",
+        frameworkUrl: buildUrl + "/IGC2-ShowRoomTest.framework.js",
+        codeUrl: buildUrl + "/IGC2-ShowRoomTest.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "INIADShowRoom",
@@ -45,8 +45,8 @@
         container.className = "unity-mobile";
         config.devicePixelRatio = 1;
       } else {
-        canvas.style.width = "1920px";
-        canvas.style.height = "1080px";
+        canvas.style.width = "960px";
+        canvas.style.height = "600px";
       }
       loadingBar.style.display = "block";
 
